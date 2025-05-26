@@ -1,32 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AG Robotik</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Robotik-AG | Wilhelm von Siemens Gymnasium</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #16a085;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #16a085;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            /* list-style-type: none; */
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navigation">
-        <div class="navigation_right">
-            <a href="/"><img src="/" alt="Robotik AG Logo"></a>
-        </div>
-        <div class="navigation_left">
-            <div class="navigation_links">
-                <a href="#" class="navigation_link">ÜBER UNS</a>
-                <a href="#" class="navigation_link">KONTAKT</a>
-                <a href="#" class="navigation_link">PROJEKTE</a>
-            </div>
-        </div>
+    <header>
+        <h1>Robotik-AG am Wilhelm von Siemens Gymnasium</h1>
+        <p>Technik entdecken – gemeinsam Roboter entwickeln!</p>
+    </header>
+
+    <nav>
+        <a href="#ueber">Über uns</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#ausruestung">Ausrüstung</a>
+        <a href="#mitmachen">Mitmachen</a>
+        <a href="#kontakt">Kontakt</a>
     </nav>
 
     <main>
-        <section class="about_us">
-
+        <section id="ueber">
+            <h2>Willkommen bei der Robotik-AG</h2>
+            <p>Willkommen auf der Seite der Robotik-AG des Wilhelm-von-Siemens-Gymnasiums! Unsere AG bietet
+                interessierten Schülerinnen und Schülern die Möglichkeit, in die spannende Welt der Robotik
+                einzutauchen. Hier kombinieren wir technisches Wissen mit praktischer Arbeit, um Roboter zu bauen, zu
+                programmieren und innovative Lösungen für reale Herausforderungen zu entwickeln.</p>
         </section>
+
+        <section id="ziele">
+            <h2>Unsere Ziele</h2>
+            <p>Die Robotik-AG hat das Ziel, jungen Menschen die faszinierende Welt der Technik näherzubringen und ihre
+                Fähigkeiten in den Bereichen Informatik, Ingenieurwesen und Mathematik zu fördern. Wir legen großen Wert
+                auf kreative Problemlösungen, Teamarbeit und den Einsatz moderner Technologien.</p>
+        </section>
+
+        <section id="was-wir-tun">
+            <h2>Was wir tun</h2>
+            <p>In der Robotik-AG arbeiten wir an einer Vielzahl von Projekten. Durch den Bau einfacher Roboter
+                lernen wir die Grundlagen der Programmiertung mithilfe einer
+                blockbasierten Programmierumgebung.</p>
+        </section>
+
+        <section id="ausruestung">
+            <h2>Unsere Ausrüstung</h2>
+            <p>Unsere AG nutzt eine Vielzahl an verschidenen Geräten, um den Schülern das nötige Wissen zu
+                vermitteln. Dazu gehören das Caliope Mini, LEGO Mindstorms.
+                So können die Schüler nicht nur ihre Kreativität ausleben, sondern auch praxisnah in die Welt
+                der Technik eintauchen.</p>
+        </section>
+
+        <section id="warum-robotik">
+            <h2>Warum Robotik?</h2>
+            <p>Robotik fördert nicht nur technisches Verständnis, sondern auch Teamarbeit, Problemlösungsfähigkeiten und
+                Kreativität. Wir bieten unseren Mitgliedern eine einzigartige Möglichkeit, ihr Wissen zu erweitern und
+                sich auf zukünftige berufliche Herausforderungen vorzubereiten – sei es in der Informatik, im
+                Maschinenbau oder in anderen technischen Bereichen. Vor Allem geht es uns darum, neus auszuprobieren und
+                Spaß zu haben.</p>
+        </section>
+
+        <section id="mitmachen">
+            <h2>Mitmachen</h2>
+            <p>Die Robotik-AG ist offen für alle interessierten Schülerinnen und Schüler des
+                Wilhelm-von-Siemens-Gymnasiums, unabhängig von ihrem Vorwissen. Du musst kein Technikexperte sein, um
+                bei uns mitzumachen – Leidenschaft und Neugier sind das Wichtigste! Wenn du Interesse hast, kannst du
+                dich jederzeit für die AG anmelden und ein Teil unseres Teams werden.</p>
+        </section>
+
+        <section id="ausblicke">
+            <h2>Weitere Ideen</h2>
+            <ul>
+                <li>Mit Arduino oder mit Raspberry Pi arbeiten</li>
+                <li>Ein 3D-Drucker nutzen, um eigene Bauteile zu erstellen</li>
+            </ul>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <ul>
+                <li><strong>Leitung:</strong> Richard Schwarz und Jeff Dettweiler<br></li>
+                <li><strong>E-Mail:</strong> agrobotikwvsg@gmail.com<br></li>
+                <li><strong>Adresse:</strong> Wilhelm von Siemens Gymnasium, Allee der Kosmonauten 32, 12681 Berlin<br>
+                </li>
+                <li><strong>Räume:</strong> 222, 228</li>
+            </ul>
+        </section>
+
+        <!-- <section id="projekte">
+            <h2>Unsere Projekte</h2>
+            <ul>
+                <li>asd</li>
+            </ul>
+        </section> -->
+
+
     </main>
+
+    <footer>
+        &copy; 2025 Robotik-AG – Wilhelm von Siemens Gymnasium, Berlin
+    </footer>
 </body>
 
 </html>
